@@ -1,0 +1,1 @@
+az ad sp create-for-rbac --name "AKSClusterGitHubActions" --role contributor --scopes /subscriptions/<SUBSCRIPTION_ID>/resourceGroups/<RESOURCE_GROUP> --sdk-auth
